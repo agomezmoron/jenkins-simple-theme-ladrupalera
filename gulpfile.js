@@ -29,8 +29,8 @@ var gulp = require('gulp'),
   minifyCss = require('gulp-minify-css');
 
 var paths = {
-  sass: ['./scss/**/*.scss'],
-  destCss: './src/css/'
+  sass: ['./src/scss/**/*.scss'],
+  destCss: './dist/css/'
 };
 
 // Default task
@@ -38,12 +38,12 @@ gulp.task('default', gulpsync.sync(['sass', 'sass-min']));
 
 //This task clean the css directory
 gulp.task('cleanCss', [], function () {
-  del('./src/css/*');
+  del('./dist/css/*');
 });
 
 //Build the CSS
 gulp.task('sass', ['cleanCss'], function (done) {
-  gulp.src(['./scss/jenkins-emergya-theme.scss'])
+  gulp.src(['./src/scss/jenkins-emergya-theme.scss'])
     .pipe(sass())
     .on('error', sass.logError)
     .pipe(concat('jenkins-emergya-theme.css'))
