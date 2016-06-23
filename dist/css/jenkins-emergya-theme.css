@@ -50,7 +50,7 @@ body {
   left: 50px;
   bottom: -11px;
   padding: 22px 100px 22px 90px;
-  background-image: url("../../img/drupalera.png"); }
+  background-image: url("../img/drupalera.png"); }
 
 #search-box {
   position: absolute;
@@ -61,7 +61,7 @@ body {
   border: 0;
   color: #fff;
   border-bottom: 1px solid #fff;
-  background: url("../../img/ico_lupa.png") center left no-repeat;
+  background: url("../img/ico_lupa.png") center left no-repeat;
   background-size: 15px;
   padding-left: 20px;
   width: 100%;
@@ -84,127 +84,127 @@ div.col-xs-24.pane-header {
   background-color: #EDEDED; }
 
 img.icon-collapse.icon-sm {
-  background-image: url("../../img/chevron-up.png");
+  background-image: url("../img/chevron-up.png");
   padding: 8px; }
 
 img.icon-expand.icon-sm {
-  background-image: url("../../img/chevron-down.png");
+  background-image: url("../img/chevron-down.png");
   padding: 8px; }
 
 img.icon-blue.icon-sm {
-  background-image: url("../../img/success-16x16.png");
+  background-image: url("../img/success-16x16.png");
   padding: 8px; }
 
 img.icon-blue.icon-md {
-  background-image: url("../../img/success-24x24.png");
+  background-image: url("../img/success-24x24.png");
   padding: 12px; }
 
 img.icon-blue.icon-lg {
-  background-image: url("../../img/success-32x32.png");
+  background-image: url("../img/success-32x32.png");
   padding: 16px; }
 
 img.icon-red.icon-sm {
-  background-image: url("../../img/error-16x16.png");
+  background-image: url("../img/error-16x16.png");
   padding: 8px; }
 
 img.icon-red.icon-md {
-  background-image: url("../../img/error-24x24.png");
+  background-image: url("../img/error-24x24.png");
   padding: 12px; }
 
 img.icon-red.icon-lg {
-  background-image: url("../../img/error-32x32.png");
+  background-image: url("../img/error-32x32.png");
   padding: 16px; }
 
 img.icon-nobuilt.icon-sm {
-  background-image: url("../../img/not-executed-16x16.png");
+  background-image: url("../img/not-executed-16x16.png");
   padding: 8px; }
 
 img.icon-nobuilt.icon-md {
-  background-image: url("../../img/not-executed-24x24.png");
+  background-image: url("../img/not-executed-24x24.png");
   padding: 12px; }
 
 img.icon-nobuilt.icon-lg {
-  background-image: url("../../img/not-executed-32x32.png");
+  background-image: url("../img/not-executed-32x32.png");
   padding: 16px; }
 
 img.icon-clock.icon-sm {
-  background-image: url("../../img/play-24x24.png");
+  background-image: url("../img/play-24x24.png");
   padding: 12px; }
 
 img.icon-clock.icon-md {
-  background-image: url("../../img/play-32x32.png");
+  background-image: url("../img/play-32x32.png");
   padding: 16px; }
 
 img.icon-clock.icon-lg {
-  background-image: url("../../img/play-32x32.png");
+  background-image: url("../img/play-32x32.png");
   padding: 16px; }
 
 img.icon-health-60to79.icon-sm {
-  background-image: url("../../img/warning16x16.png");
+  background-image: url("../img/warning16x16.png");
   padding: 8px; }
 
 img.icon-health-60to79.icon-md {
-  background-image: url("../../img/warning24x24.png");
+  background-image: url("../img/warning24x24.png");
   padding: 12px; }
 
 img.icon-health-60to79.icon-lg {
-  background-image: url("../../img/warning32x32.png");
+  background-image: url("../img/warning32x32.png");
   padding: 16px; }
 
 img.icon-health-00to19.icon-sm {
-  background-image: url("../../img/fail16x16.png");
+  background-image: url("../img/fail16x16.png");
   padding: 8px; }
 
 img.icon-health-00to19.icon-md {
-  background-image: url("../../img/fail24x24.png");
+  background-image: url("../img/fail24x24.png");
   padding: 12px; }
 
 img.icon-health-00to19.icon-lg {
-  background-image: url("../../img/fail32x32.png");
+  background-image: url("../img/fail32x32.png");
   padding: 16px; }
 
 img.icon-health-80plus.icon-sm {
-  background-image: url("../../img/Smile16x16.png");
+  background-image: url("../img/Smile16x16.png");
   padding: 8px; }
 
 img.icon-health-80plus.icon-md {
-  background-image: url("../../img/Smile24x24.png");
+  background-image: url("../img/Smile24x24.png");
   padding: 12px; }
 
 img.icon-health-80plus.icon-lg {
-  background-image: url("../../img/Smile32x32.png");
+  background-image: url("../img/Smile32x32.png");
   padding: 16px; }
 
 #tasks .task {
   margin-bottom: 10px; }
 
 img.icon-new-package.icon-md {
-  background-image: url("../../img/plus_24x24.png");
+  background-image: url("../img/plus_24x24.png");
   padding: 12px; }
 
 img.icon-user.icon-md {
-  background-image: url("../../img/user_24x32.png");
+  background-image: url("../img/user_24x32.png");
   padding: 12px; }
 
 img.icon-notepad.icon-sm {
-  background-image: url("../../img/pen_16x16.png");
+  background-image: url("../img/pen_16x16.png");
   padding: 8px;
   margin-right: 5px; }
 
 img.icon-notepad.icon-md {
-  background-image: url("../../img/clock_24x24.png");
+  background-image: url("../img/clock_24x24.png");
   padding: 12px; }
 
 img.icon-gear2.icon-md {
-  background-image: url("../../img/cog_24x24.png");
+  background-image: url("../img/cog_24x24.png");
   padding: 12px; }
 
 #tasks div:nth-child(5) img.icon-user.icon-md {
-  background-image: url("../../img/folder_stroke_24x24.png");
+  background-image: url("../img/folder_stroke_24x24.png");
   padding: 12px; }
 
 img.icon-credentials-credentials.icon-md {
-  background-image: url("../../img/key_stroke_24x24.png");
+  background-image: url("../img/key_stroke_24x24.png");
   padding: 12px; }
 
 #jenkins .task-link {
