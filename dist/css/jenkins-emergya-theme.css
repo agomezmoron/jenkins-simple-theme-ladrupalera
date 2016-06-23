@@ -20,5 +20,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+/*
+  Created on : 21/06/2016
+  Author     : Javier Fernandez <fjfernandez@emergya.com>
+*/
 #header {
-  background-color: #337390; }
+  background-color: blue;
+  height: 100px; }

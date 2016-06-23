@@ -20,6 +20,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+
+/**
+ * @Author: Javier Fernandez <fjfernandez@emergya.com>
+ * @Gulp|Tasks
+ */
+
 var gulp = require('gulp'),
   sass = require('gulp-sass'),
   concat = require('gulp-concat'),
@@ -30,15 +36,18 @@ var gulp = require('gulp'),
 
 var paths = {
   sass: ['./src/scss/**/*.scss'],
-  destCss: './dist/css/'
+  destCss: '/opt/tomcat/webapps/ROOT/',
+  devImg: './src/img/*.*',
+  destImg: '/opt/tomcat/webapps/ROOT/img/'
 };
 
 // Default task
-gulp.task('default', gulpsync.sync(['sass', 'sass-min']));
+gulp.task('default', gulpsync.sync(['sass', 'sass-min', 'copy-img']));
 
 //This task clean the css directory
 gulp.task('cleanCss', [], function () {
-  del('./dist/css/*');
+  console.log(paths.destCss + 'jenkins-emergya-theme.min.css');
+  del(paths.destCss + '*.css');
 });
 
 //Build the CSS
@@ -51,6 +60,11 @@ gulp.task('sass', ['cleanCss'], function (done) {
     .on('end', done);
 });
 
+//Observes the scss changes
+gulp.task('watch', function () {
+  gulp.watch(paths.sass, gulpsync.sync(['sass-min', 'copy-img']));
+});
+
 //Build the minified CSS
 gulp.task('sass-min', ['sass'], function (done) {
   gulp.src(paths.destCss + '**/*.css')
@@ -58,4 +72,10 @@ gulp.task('sass-min', ['sass'], function (done) {
     .pipe((hashFilename({"format": "{name}.min{ext}"})))
     .pipe(gulp.dest(paths.destCss))
     .on('end', done);
+});
+
+//Copy imgs
+gulp.task('copy-img', [], function () {
+  return gulp.src(paths.devImg)
+    .pipe(gulp.dest(paths.destImg));
 });

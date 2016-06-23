@@ -1,0 +1,65 @@
+//Author: fjfernandez <fjfernandez@emergya.com>
+
+//Set the font family
+body{
+  font-family:"Lato";
+}
+
+//Set the aplication bg
+#jenkins{
+  background-color: $jenkins-bg;
+}
+
+//Set the header properties
+#header {
+  background-color: $header-bg-main;
+  height: 57px;
+}
+
+//Move the jenkins icon
+#jenkins-head-icon{
+  bottom:-4px;
+}
+
+//Place the drupalera logo.
+#jenkins-name-icon{
+  width: 0;
+  left: 50px;
+  bottom: -11px;
+  padding: 22px 100px 22px 90px;
+  background-image: url("../img/drupalera.png");
+}
+
+//Change the position of the search input
+#search-box{
+  position: absolute;
+  right: 40px;
+  bottom: -16px;
+  box-shadow: none;
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  background: url('../img/ico_lupa.png') center left no-repeat;
+  background-size: 15px;
+  padding-left: 20px;
+  width: 100%;
+  outline: 0;
+  border-radius: 0
+}
+
+//Hide help icon
+img.icon-help.icon-sm
+{
+  width: 0 !important;
+}
+
+//Connection titles
+#header .login{
+  top: 14px;
+}
+
+//SubHeader
+#breadcrumbBar, #footer-container, .top-sticker-inner{
+  background-color: $sub-header-bg;
+}
