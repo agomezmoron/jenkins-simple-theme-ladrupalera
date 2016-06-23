@@ -1,0 +1,223 @@
+/**
+ * @license
+ * Copyright (c) 2016 Alejandro Gomez Moron
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+/*
+  Created on : 21/06/2016
+  Author     : Javier Fernandez <fjfernandez@emergya.com>
+*/
+/*
+ *   Created on : 21-jun-2016, 15:32:16
+ *   Author     : fjfernandez
+ */
+@font-face {
+  font-family: Lato;
+  src: url(https://fonts.googleapis.com/css?family=Lato); }
+
+body {
+  font-family: "Lato"; }
+
+#jenkins {
+  background-color: #F9F7F7; }
+
+#header {
+  background-color: #1681B3;
+  height: 57px; }
+
+#jenkins-head-icon {
+  bottom: -4px; }
+
+#jenkins-name-icon {
+  width: 0;
+  left: 50px;
+  bottom: -11px;
+  padding: 22px 100px 22px 90px;
+  background-image: url("../../img/drupalera.png"); }
+
+#search-box {
+  position: absolute;
+  right: 40px;
+  bottom: -16px;
+  box-shadow: none;
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  background: url("../../img/ico_lupa.png") center left no-repeat;
+  background-size: 15px;
+  padding-left: 20px;
+  width: 100%;
+  outline: 0;
+  border-radius: 0; }
+
+img.icon-help.icon-sm {
+  width: 0 !important; }
+
+#header .login {
+  top: 14px; }
+
+#breadcrumbBar, #footer-container, .top-sticker-inner {
+  background-color: #EDEDED; }
+
+div.col-xs-24.pane-header {
+  background-color: #EDEDED; }
+
+.bigtable th {
+  background-color: #EDEDED; }
+
+img.icon-collapse.icon-sm {
+  background-image: url("../../img/chevron-up.png");
+  padding: 8px; }
+
+img.icon-expand.icon-sm {
+  background-image: url("../../img/chevron-down.png");
+  padding: 8px; }
+
+img.icon-blue.icon-sm {
+  background-image: url("../../img/success-16x16.png");
+  padding: 8px; }
+
+img.icon-blue.icon-md {
+  background-image: url("../../img/success-24x24.png");
+  padding: 12px; }
+
+img.icon-blue.icon-lg {
+  background-image: url("../../img/success-32x32.png");
+  padding: 16px; }
+
+img.icon-red.icon-sm {
+  background-image: url("../../img/error-16x16.png");
+  padding: 8px; }
+
+img.icon-red.icon-md {
+  background-image: url("../../img/error-24x24.png");
+  padding: 12px; }
+
+img.icon-red.icon-lg {
+  background-image: url("../../img/error-32x32.png");
+  padding: 16px; }
+
+img.icon-nobuilt.icon-sm {
+  background-image: url("../../img/not-executed-16x16.png");
+  padding: 8px; }
+
+img.icon-nobuilt.icon-md {
+  background-image: url("../../img/not-executed-24x24.png");
+  padding: 12px; }
+
+img.icon-nobuilt.icon-lg {
+  background-image: url("../../img/not-executed-32x32.png");
+  padding: 16px; }
+
+img.icon-clock.icon-sm {
+  background-image: url("../../img/play-24x24.png");
+  padding: 12px; }
+
+img.icon-clock.icon-md {
+  background-image: url("../../img/play-32x32.png");
+  padding: 16px; }
+
+img.icon-clock.icon-lg {
+  background-image: url("../../img/play-32x32.png");
+  padding: 16px; }
+
+img.icon-health-60to79.icon-sm {
+  background-image: url("../../img/warning16x16.png");
+  padding: 8px; }
+
+img.icon-health-60to79.icon-md {
+  background-image: url("../../img/warning24x24.png");
+  padding: 12px; }
+
+img.icon-health-60to79.icon-lg {
+  background-image: url("../../img/warning32x32.png");
+  padding: 16px; }
+
+img.icon-health-00to19.icon-sm {
+  background-image: url("../../img/fail16x16.png");
+  padding: 8px; }
+
+img.icon-health-00to19.icon-md {
+  background-image: url("../../img/fail24x24.png");
+  padding: 12px; }
+
+img.icon-health-00to19.icon-lg {
+  background-image: url("../../img/fail32x32.png");
+  padding: 16px; }
+
+img.icon-health-80plus.icon-sm {
+  background-image: url("../../img/Smile16x16.png");
+  padding: 8px; }
+
+img.icon-health-80plus.icon-md {
+  background-image: url("../../img/Smile24x24.png");
+  padding: 12px; }
+
+img.icon-health-80plus.icon-lg {
+  background-image: url("../../img/Smile32x32.png");
+  padding: 16px; }
+
+#tasks .task {
+  margin-bottom: 10px; }
+
+img.icon-new-package.icon-md {
+  background-image: url("../../img/plus_24x24.png");
+  padding: 12px; }
+
+img.icon-user.icon-md {
+  background-image: url("../../img/user_24x32.png");
+  padding: 12px; }
+
+img.icon-notepad.icon-sm {
+  background-image: url("../../img/pen_16x16.png");
+  padding: 8px;
+  margin-right: 5px; }
+
+img.icon-notepad.icon-md {
+  background-image: url("../../img/clock_24x24.png");
+  padding: 12px; }
+
+img.icon-gear2.icon-md {
+  background-image: url("../../img/cog_24x24.png");
+  padding: 12px; }
+
+#tasks div:nth-child(5) img.icon-user.icon-md {
+  background-image: url("../../img/folder_stroke_24x24.png");
+  padding: 12px; }
+
+img.icon-credentials-credentials.icon-md {
+  background-image: url("../../img/key_stroke_24x24.png");
+  padding: 12px; }
+
+#jenkins .task-link {
+  vertical-align: text-top; }
+
+footer {
+  background-color: #1A1305;
+  color: white;
+  border-bottom: none; }
+
+a:link {
+  color: #1681B3;
+  text-decoration: none; }
+
+a:visited {
+  color: #1681B3; }
