@@ -46,7 +46,6 @@ gulp.task('default', gulpsync.sync(['sass', 'sass-min', 'copy-img']));
 
 //This task clean the css directory
 gulp.task('cleanCss', [], function () {
-  console.log(paths.destCss + 'jenkins-emergya-theme.min.css');
   del(paths.destCss + '*.css');
 });
 
