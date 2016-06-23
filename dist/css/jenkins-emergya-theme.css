@@ -139,15 +139,15 @@ img.icon-clock.icon-lg {
   background-image: url("../img/play-32x32.png");
   padding: 16px; }
 
-img.icon-health-60to79.icon-sm {
+img.icon-health-20to39.icon-sm, img.icon-health-40to59.icon-sm, img.icon-health-60to79.icon-sm, img.icon-health-40to59.icon-sm, img.icon-health-60to79.icon-sm {
   background-image: url("../img/warning16x16.png");
   padding: 8px; }
 
-img.icon-health-60to79.icon-md {
+img.icon-health-20to39.icon-md, img.icon-health-40to59.icon-md, img.icon-health-60to79.icon-md, img.icon-health-40to59.icon-md, img.icon-health-60to79.icon-md {
   background-image: url("../img/warning24x24.png");
   padding: 12px; }
 
-img.icon-health-60to79.icon-lg {
+img.icon-health-20to39.icon-lg, img.icon-health-40to59.icon-lg, img.icon-health-60to79.icon-lg, img.icon-health-40to59.icon-lg, img.icon-health-60to79.icon-lg {
   background-image: url("../img/warning32x32.png");
   padding: 16px; }
 
