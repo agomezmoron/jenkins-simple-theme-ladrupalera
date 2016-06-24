@@ -1,6 +1,6 @@
 /**
  * @license
- * Copyright (c) 2016 Alejandro Gomez Moron
+ * Copyright (c) 2016 Alejandro Gomez Moron, Francisco Javier Fernandez Ceña
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -20,9 +20,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-
 /**
- * @Author: Javier Fernandez <fjfernandez@emergya.com>
+ * @Authors: Javier Fernandez <fjfernandez@emergya.com>
+ *           Alejandro Gomez <amoron@emergya.com>
  * @Gulp|Tasks
  */
 
