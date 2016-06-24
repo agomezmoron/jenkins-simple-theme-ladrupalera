@@ -32,25 +32,22 @@ var gulp = require('gulp'),
   hashFilename = require('gulp-hash-filename'),
   gulpsync = require('gulp-sync')(gulp),
   del = require('del'),
-  minifyCss = require('gulp-minify-css');
-
+  cleanCss = require('gulp-clean-css');
 var paths = {
   sass: ['./src/scss/**/*.scss'],
   destCss: './dist/css/',
   devImg: './src/img/*.*',
   destImg: './dist/img/'
 };
-
 // Default task
 gulp.task('default', gulpsync.sync(['sass-min', 'copy-img']));
-
-//This task clean the css directory
-gulp.task('cleanCss', [], function () {
-  del(paths.destCss + '*.css');
+//This task clean the dist directory
+gulp.task('cleanDist', [], function () {
+  del(paths.destCss + '*.*');
+  del(paths.destImg + '*.*');
 });
-
 //Build the CSS
-gulp.task('sass', ['cleanCss'], function (done) {
+gulp.task('sass', gulpsync.sync(['cleanDist']), function (done) {
   gulp.src(['./src/scss/jenkins-ladrupalera-theme.scss'])
     .pipe(sass())
     .on('error', sass.logError)
@@ -58,21 +55,18 @@ gulp.task('sass', ['cleanCss'], function (done) {
     .pipe(gulp.dest(paths.destCss))
     .on('end', done);
 });
-
 //Observes the scss changes
 gulp.task('watch', function () {
   gulp.watch(paths.sass, gulpsync.sync(['sass-min', 'copy-img']));
 });
-
 //Build the minified CSS
 gulp.task('sass-min', gulpsync.sync(['sass']), function (done) {
   gulp.src(paths.destCss + '**/*.css')
-    .pipe(minifyCss({keepSpecialComments: 0}))
+    .pipe(cleanCss({keepSpecialComments: 0, compatibility: {properties: {urlQuotes: false}}}))
     .pipe((hashFilename({"format": "{name}.min{ext}"})))
     .pipe(gulp.dest(paths.destCss))
     .on('end', done);
 });
-
 //Copy imgs
 gulp.task('copy-img', [], function () {
   return gulp.src(paths.devImg)
