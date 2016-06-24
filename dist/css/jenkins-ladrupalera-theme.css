@@ -31,7 +31,7 @@
  */
 @font-face {
   font-family: Lato;
-  src: url(https://fonts.googleapis.com/css?family=Lato); }
+  src: url("https://fonts.googleapis.com/css?family=Lato"); }
 
 body {
   font-family: "Lato"; }
