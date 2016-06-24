@@ -42,7 +42,7 @@ var paths = {
 };
 
 // Default task
-gulp.task('default', gulpsync.sync(['sass', 'sass-min', 'copy-img']));
+gulp.task('default', gulpsync.sync(['cleanCss', 'sass', 'sass-min', 'copy-img']));
 
 //This task clean the css directory
 gulp.task('cleanCss', [], function () {
@@ -65,7 +65,7 @@ gulp.task('watch', function () {
 });
 
 //Build the minified CSS
-gulp.task('sass-min', ['sass'], function (done) {
+gulp.task('sass-min', gulpsync.sync(['sass']), function (done) {
   gulp.src(paths.destCss + '**/*.css')
     .pipe(minifyCss({keepSpecialComments: 0}))
     .pipe((hashFilename({"format": "{name}.min{ext}"})))
