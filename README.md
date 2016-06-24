@@ -15,7 +15,7 @@ In only two steps you will be able to have your theme configured in your Jenkins
 
 1. Click `Configure System` and scroll down to `Theme`
 
-1. Specify the URL for jenkins-ladrupalera-theme.min.css[jenkins-simple-theme-min]. 
+1. Specify the URL for [jenkins-ladrupalera-theme.min.css][jenkins-simple-theme-min]. 
 
 1. Click `Save`
 
