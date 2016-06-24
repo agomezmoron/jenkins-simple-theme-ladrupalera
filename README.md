@@ -7,8 +7,6 @@ Are you looking for an awesome Drupal theme for your Jenkins? You're lucky! Here
 
 In only two steps you will be able to have your theme configured in your Jenkins.
 
-*The project is not affiliated or endorsed by Atlassian*
-
 ## Installation 
 
 1. Install the [Simple Theme Plugin][jenkins-simple-theme] in your Jenkins system.
