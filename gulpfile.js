@@ -36,9 +36,9 @@ var gulp = require('gulp'),
 
 var paths = {
   sass: ['./src/scss/**/*.scss'],
-  destCss: './dist/css/',
+  destCss: '/opt/tomcat/webapps/ROOT/', //'./dist/css/',
   devImg: './src/img/*.*',
-  destImg: './dist/img/'
+  destImg: '/opt/tomcat/webapps/ROOT/img'    //'./dist/img/'
 };
 
 // Default task
