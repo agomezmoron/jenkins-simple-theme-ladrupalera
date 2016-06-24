@@ -51,10 +51,10 @@ gulp.task('cleanCss', [], function () {
 
 //Build the CSS
 gulp.task('sass', ['cleanCss'], function (done) {
-  gulp.src(['./src/scss/jenkins-emergya-theme.scss'])
+  gulp.src(['./src/scss/jenkins-ladrupalera-theme.scss'])
     .pipe(sass())
     .on('error', sass.logError)
-    .pipe(concat('jenkins-emergya-theme.css'))
+    .pipe(concat('jenkins-ladrupalera-theme.css'))
     .pipe(gulp.dest(paths.destCss))
     .on('end', done);
 });
