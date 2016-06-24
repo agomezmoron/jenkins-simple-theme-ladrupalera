@@ -1,7 +1,7 @@
 {
-  "name": "jenkins-theme-emergya",
+  "name": "jenkins-simple-theme-ladrupalera",
   "version": "0.0.1",
-  "description": "Emergya Jenkins theme",
+  "description": "LaDrupalera Jenkins theme",
   "dependencies": {
   },
   "devDependencies": {
