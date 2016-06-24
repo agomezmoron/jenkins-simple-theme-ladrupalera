@@ -104,6 +104,18 @@ img.icon-blue.icon-lg {
   background-image: url("../img/success-32x32.png");
   padding: 16px; }
 
+img.icon-blue-anime.icon-sm {
+  background-image: url("../img/success16x16.gif");
+  padding: 8px; }
+
+img.icon-blue-anime.icon-md {
+  background-image: url("../img/success24x24.gif");
+  padding: 12px; }
+
+img.icon-blue-anime.icon-lg {
+  background-image: url("../img/success32x32.gif");
+  padding: 16px; }
+
 img.icon-red.icon-sm {
   background-image: url("../img/error-16x16.png");
   padding: 8px; }
@@ -116,6 +128,18 @@ img.icon-red.icon-lg {
   background-image: url("../img/error-32x32.png");
   padding: 16px; }
 
+img.icon-red-anime.icon-sm {
+  background-image: url("../img/error16x16.gif");
+  padding: 8px; }
+
+img.icon-red-anime.icon-md {
+  background-image: url("../img/error24x24.gif");
+  padding: 12px; }
+
+img.icon-red-anime.icon-lg {
+  background-image: url("../img/error32x32.gif");
+  padding: 16px; }
+
 img.icon-nobuilt.icon-sm {
   background-image: url("../img/not-executed-16x16.png");
   padding: 8px; }
@@ -126,6 +150,18 @@ img.icon-nobuilt.icon-md {
 
 img.icon-nobuilt.icon-lg {
   background-image: url("../img/not-executed-32x32.png");
+  padding: 16px; }
+
+img.icon-nobuilt.icon-sm {
+  background-image: url("../img/warning16x16.gif");
+  padding: 8px; }
+
+img.icon-nobuilt.icon-md {
+  background-image: url("../img/warning24x24.gif");
+  padding: 12px; }
+
+img.icon-nobuilt.icon-lg {
+  background-image: url("../img/warning32x32.gif");
   padding: 16px; }
 
 img.icon-clock.icon-sm {
@@ -210,6 +246,10 @@ img.icon-credentials-credentials.icon-md {
 
 #jenkins .task-link {
   vertical-align: text-top; }
+
+#yui-gen1-button {
+  background-color: #1681B3 !important;
+  border-radius: 5px !important; }
 
 footer {
   background-color: #1A1305;
