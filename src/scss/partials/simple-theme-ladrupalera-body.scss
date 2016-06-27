@@ -160,6 +160,25 @@ img.icon-clock{
   }
 }
 
+//Clock gif
+img.icon-clock-anime{
+
+  &.icon-sm{
+    background-image: url("../img/clock-16x16.gif");
+    padding: 8px;
+  }
+
+  &.icon-md{
+    background-image: url("../img/clock-24x24.gif");
+    padding: 16px;
+  }
+
+  &.icon-lg{
+    background-image: url("../img/clock-24x24.gif");
+    padding: 16px;
+  }
+}
+
 //State warning
 img.icon-health-20to39, img.icon-health-40to59, img.icon-health-60to79, img.icon-health-40to59, img.icon-health-60to79{
 
@@ -271,6 +290,12 @@ img.icon-credentials-credentials{
   &.icon-md{
     background-image: url("../img/key_stroke_24x24.png");
     padding: 12px;
+  }
+
+  &.icon-xlg{
+    background-image: url("../img/key_stroke_48x48.png");
+    padding: 24px;
+    margin-right: 10px;
   }
 }
 

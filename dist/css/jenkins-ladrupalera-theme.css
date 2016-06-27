@@ -176,6 +176,18 @@ img.icon-clock.icon-lg {
   background-image: url("../img/play-32x32.png");
   padding: 16px; }
 
+img.icon-clock-anime.icon-sm {
+  background-image: url("../img/clock-16x16.gif");
+  padding: 8px; }
+
+img.icon-clock-anime.icon-md {
+  background-image: url("../img/clock-24x24.gif");
+  padding: 16px; }
+
+img.icon-clock-anime.icon-lg {
+  background-image: url("../img/clock-24x24.gif");
+  padding: 16px; }
+
 img.icon-health-20to39.icon-sm, img.icon-health-40to59.icon-sm, img.icon-health-60to79.icon-sm, img.icon-health-40to59.icon-sm, img.icon-health-60to79.icon-sm {
   background-image: url("../img/warning16x16.png");
   padding: 8px; }
@@ -243,6 +255,11 @@ img.icon-gear2.icon-md {
 img.icon-credentials-credentials.icon-md {
   background-image: url("../img/key_stroke_24x24.png");
   padding: 12px; }
+
+img.icon-credentials-credentials.icon-xlg {
+  background-image: url("../img/key_stroke_48x48.png");
+  padding: 24px;
+  margin-right: 10px; }
 
 #jenkins .task-link {
   vertical-align: text-top; }
