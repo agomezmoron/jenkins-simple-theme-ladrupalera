@@ -39,6 +39,7 @@ var paths = {
   devImg: './src/img/*.*',
   destImg: './dist/img/'
 };
+
 // Default task
 gulp.task('default', gulpsync.sync(['sass-min', 'copy-img']));
 //This task clean the dist directory

@@ -152,15 +152,15 @@ img.icon-nobuilt.icon-lg {
   background-image: url("../img/not-executed-32x32.png");
   padding: 16px; }
 
-img.icon-nobuilt.icon-sm {
+img.icon-nobuilt-anime.icon-sm {
   background-image: url("../img/warning16x16.gif");
   padding: 8px; }
 
-img.icon-nobuilt.icon-md {
+img.icon-nobuilt-anime.icon-md {
   background-image: url("../img/warning24x24.gif");
   padding: 12px; }
 
-img.icon-nobuilt.icon-lg {
+img.icon-nobuilt-anime.icon-lg {
   background-image: url("../img/warning32x32.gif");
   padding: 16px; }
 
