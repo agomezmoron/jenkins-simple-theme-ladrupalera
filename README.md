@@ -33,9 +33,11 @@ If you are experiencing issues feel free to let me know.
 - [Simple Theme Plugin][jenkins-simple-theme] for the Simple Theme plugin
 - [La Drupalera][la-drupalera] for the the design inspiration and for having an awesome team
 - [Francisco J. Javier Fernandez][jfernandez89]
+- [Open Iconic][open-iconic] for being an inspiration for us. We used some icons from this awesome project!
 
 
 [jenkins-simple-theme]: https://wiki.jenkins-ci.org/display/JENKINS/Simple+Theme+Plugin
 [jenkins-simple-theme-min]: https://cdn.rawgit.com/agomezmoron/jenkins-simple-theme-ladrupalera/master/dist/css/jenkins-ladrupalera-theme.min.css
 [la-drupalera]: http://www.ladrupalera.com/
 [jfernandez89]: https://github.com/jfernandez89
+[open-iconic]: https://github.com/iconic/open-iconic
