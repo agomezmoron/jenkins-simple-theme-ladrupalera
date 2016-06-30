@@ -103,6 +103,44 @@ img.icon-red-anime{
   }
 }
 
+//Yellow
+img.icon-yellow{
+
+  &.icon-sm{
+    background-image: url("../img/not-executed-16x16.png");
+    padding: 8px;
+  }
+
+  &.icon-md{
+    background-image: url("../img/not-executed-24x24.png");
+    padding: 12px;
+  }
+
+  &.icon-lg{
+    background-image: url("../img/not-executed-32x32.png");
+    padding: 16px;
+  }
+}
+
+//Gif warning
+img.icon-yellow-anime{
+
+  &.icon-sm{
+    background-image: url("../img/warning16x16.gif");
+    padding: 8px;
+  }
+
+  &.icon-md{
+    background-image: url("../img/warning24x24.gif");
+    padding: 12px;
+  }
+
+  &.icon-lg{
+    background-image: url("../img/warning32x32.gif");
+    padding: 16px;
+  }
+}
+
 //No built
 img.icon-nobuilt{
 

@@ -140,6 +140,30 @@ img.icon-red-anime.icon-lg {
   background-image: url("../img/error32x32.gif");
   padding: 16px; }
 
+img.icon-yellow.icon-sm {
+  background-image: url("../img/not-executed-16x16.png");
+  padding: 8px; }
+
+img.icon-yellow.icon-md {
+  background-image: url("../img/not-executed-24x24.png");
+  padding: 12px; }
+
+img.icon-yellow.icon-lg {
+  background-image: url("../img/not-executed-32x32.png");
+  padding: 16px; }
+
+img.icon-yellow-anime.icon-sm {
+  background-image: url("../img/warning16x16.gif");
+  padding: 8px; }
+
+img.icon-yellow-anime.icon-md {
+  background-image: url("../img/warning24x24.gif");
+  padding: 12px; }
+
+img.icon-yellow-anime.icon-lg {
+  background-image: url("../img/warning32x32.gif");
+  padding: 16px; }
+
 img.icon-nobuilt.icon-sm {
   background-image: url("../img/not-executed-16x16.png");
   padding: 8px; }
