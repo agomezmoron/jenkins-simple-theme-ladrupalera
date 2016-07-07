@@ -116,6 +116,30 @@ img.icon-blue-anime.icon-lg {
   background-image: url("../img/success32x32.gif");
   padding: 16px; }
 
+img.icon-grey.icon-sm {
+  background-image: url("../img/warning-16x16.png");
+  padding: 8px; }
+
+img.icon-grey.icon-md {
+  background-image: url("../img/warning-24x24.png");
+  padding: 12px; }
+
+img.icon-grey.icon-lg {
+  background-image: url("../img/warning-32x32.png");
+  padding: 16px; }
+
+img.icon-grey-anime.icon-sm {
+  background-image: url("../img/warning16x16.gif");
+  padding: 8px; }
+
+img.icon-grey-anime.icon-md {
+  background-image: url("../img/warning24x24.gif");
+  padding: 12px; }
+
+img.icon-grey-anime.icon-lg {
+  background-image: url("../img/warning32x32.gif");
+  padding: 16px; }
+
 img.icon-red.icon-sm {
   background-image: url("../img/error-16x16.png");
   padding: 8px; }
