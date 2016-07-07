@@ -188,6 +188,30 @@ img.icon-nobuilt-anime.icon-lg {
   background-image: url("../img/warning32x32.gif");
   padding: 16px; }
 
+img.icon-aborted.icon-sm {
+  background-image: url("../img/not-executed-16x16.png");
+  padding: 8px; }
+
+img.icon-aborted.icon-md {
+  background-image: url("../img/not-executed-24x24.png");
+  padding: 12px; }
+
+img.icon-aborted.icon-lg {
+  background-image: url("../img/not-executed-32x32.png");
+  padding: 16px; }
+
+img.icon-aborted-anime.icon-sm {
+  background-image: url("../img/warning16x16.gif");
+  padding: 8px; }
+
+img.icon-aborted-anime.icon-md {
+  background-image: url("../img/warning24x24.gif");
+  padding: 12px; }
+
+img.icon-aborted-anime.icon-lg {
+  background-image: url("../img/warning32x32.gif");
+  padding: 16px; }
+
 img.icon-clock.icon-sm {
   background-image: url("../img/play-24x24.png");
   padding: 12px; }
