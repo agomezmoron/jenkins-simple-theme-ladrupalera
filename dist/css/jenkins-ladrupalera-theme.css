@@ -117,15 +117,15 @@ img.icon-blue-anime.icon-lg {
   padding: 16px; }
 
 img.icon-grey.icon-sm {
-  background-image: url("../img/warning-16x16.png");
+  background-image: url("../img/warning16x16.gif");
   padding: 8px; }
 
 img.icon-grey.icon-md {
-  background-image: url("../img/warning-24x24.png");
+  background-image: url("../img/warning24x24.gif");
   padding: 12px; }
 
 img.icon-grey.icon-lg {
-  background-image: url("../img/warning-32x32.png");
+  background-image: url("../img/warning32x32.gif");
   padding: 16px; }
 
 img.icon-grey-anime.icon-sm {
